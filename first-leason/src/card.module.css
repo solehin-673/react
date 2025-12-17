@@ -8,6 +8,7 @@ body {
   height: 100vh;
   background-color: black;
   padding: 10px;
+  display: flex;
 }
 
 .card {
@@ -16,6 +17,7 @@ body {
   border-radius: 10px;
   background-color: #fff;
   padding: 10px;
+  margin: 10px;
 }
 .top {
   display: flex;

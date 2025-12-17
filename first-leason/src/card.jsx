@@ -3,7 +3,7 @@ import { Bookmark } from "lucide-react";
 function Card({content}) {
   
   return (
-    <div className={styles.parent}>
+    <div >
       <div className={styles.card}>
         <div className={styles.top}>
           <img
@@ -11,7 +11,7 @@ function Card({content}) {
           />
           <button>
             save <Bookmark />
-          </button>
+          </button> 
         </div>
         <div className={styles.center}>
           <h3>{content.post}</h3>

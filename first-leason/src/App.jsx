@@ -1,3 +1,4 @@
+import { Section } from "lucide-react";
 import Card from "./card";
 import Data from "./card info";
 import Check from "./checkbox";
@@ -12,6 +13,21 @@ import Hc from "./props2";
 import Info from "./radio and dropdown";
 import State from "./state";
 import User, {Key, Password, UserName } from "./user"; // multiple import from one file
+import Section1 from "./ui/ux project/section1/section1";
+import Fun from "./Function";
+import Counter from "./practice/counter";
+import Form from "./formhandling";
+import Noteapp from "./practice/noteapp";
+import Localstorage from "./localstorage";
+import Apicall from "./apicall";
+import Galaryapp from "./practice/galaryapp";
+import Useeffect from "./useeffect";
+import Parentsprop from "./react-router-dom/advancedprops.jsx/parents";
+
+import Navbar from "./contextapi/Navbar";
+import Theme from "./contextapi/theme";
+import Project from "./project/project";
+
 
 
 function apple(){
@@ -33,9 +49,22 @@ function apple(){
   */
   return(
     //  multiple html tag should be in a single tag or wrapper
-    <div> 
+    <div>
+      <Project/>
+      {/* <Theme/> */}
+     {/* <Navbar/> */}
+      {/* <Parentsprop/> */}
+      {/* <Useeffect/> */}
+      {/* <Galaryapp/> */}
+      {/* <Apicall/> */}
+      {/* <Localstorage/> */}
+      {/* <Noteapp/> */}
+      {/* <Form/> */}
+      {/* <Counter/> */}
+      {/* <Fun/> */}
+     {/* <Section1/> */}
       {/* <Data/> */}
-      <Mapping/>
+      {/* <Mapping/> */}
       {/* <Info/> */}
       {/* <Check/> */}
       {/* <Inputs/> */}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "125 million",
+    "interestingFact": "Japan has more than 6,800 islands."
+  },
+  {
+    "id": 2,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": "39 million",
+    "interestingFact": "Canada has the longest coastline in the world."
+  },
+  {
+    "id": 3,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "214 million",
+    "interestingFact": "Brazil is home to 60% of the Amazon rainforest."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26 million",
+    "interestingFact": "Australia has more kangaroos than humans."
+  },
+  {
+    "id": 5,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": "1.4 billion",
+    "interestingFact": "India is the world’s largest democracy."
+  },
+  {
+    "id": 6,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": "112 million",
+    "interestingFact": "Egypt’s pyramids are over 4,500 years old."
+  },
+  {
+    "id": 7,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": "68 million",
+    "interestingFact": "France is the most visited country in the world."
+  },
+  {
+    "id": 8,
+    "countryName": "South Korea",
+    "capital": "Seoul",
+    "population": "52 million",
+    "interestingFact": "South Korea has the fastest internet in the world."
+  },
+  {
+    "id": 9,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": "130 million",
+    "interestingFact": "Chocolate was invented in Mexico."
+  },
+  {
+    "id": 10,
+    "countryName": "Bangladesh",
+    "capital": "Dhaka",
+    "population": "170 million",
+    "interestingFact": "Bangladesh has the largest river delta in the world."
+  }
+]

@@ -1,4 +1,5 @@
 import Card from "./card";
+import styles from './card.module.css';
 
 function Data(){
     const info = [
@@ -8,7 +9,7 @@ function Data(){
       type: "full-time",
       salary: "45$/hr",
     },
-    {
+    { 
       logo:"data:image/png;base64,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",
       post: "ui/ux dev",
       type: "part-time",
@@ -22,7 +23,8 @@ function Data(){
     }
   ];
 
-  <div>
+  return(
+<div className={styles.parent}>
 {/* {info.map((data) => {
     return (
 <Card content={data}/>
@@ -32,10 +34,12 @@ function Data(){
 })} */}
 
 {info.map((data) => { //array er upor map function use kora hoyeche
-            return <Card content={data} />; // props use kore Biodata function er bio er moddhe data (object) er value add kora hoy
+            return <Card content={data}/>; // props use kore Biodata function er bio er moddhe data (object) er value add kora hoy
                                           // data er moddhe arrayr object gulo 1 by 1 store hbe
           })} 
   </div>
+  )
+  
 
   
 
