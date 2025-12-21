@@ -27,6 +27,7 @@ import Parentsprop from "./react-router-dom/advancedprops.jsx/parents";
 import Navbar from "./contextapi/Navbar";
 import Theme from "./contextapi/theme";
 import Project from "./project/project";
+import Family from "./practice/family/page/home";
 
 
 
@@ -50,7 +51,8 @@ function apple(){
   return(
     //  multiple html tag should be in a single tag or wrapper
     <div>
-      <Project/>
+      <Family/>
+      {/* <Project/> */}
       {/* <Theme/> */}
      {/* <Navbar/> */}
       {/* <Parentsprop/> */}
