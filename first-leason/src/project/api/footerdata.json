@@ -4,7 +4,7 @@
     "icon": "PhoneCall",
     "title": "Contact Us",
     "details": "Phone: +880 1234 567890, Email: support@example.com",
-    "_comments":" logo as a component na likhe as a string likhte hbe(<PhoneCall/> not valid, PhoneCall with quotetionvalid)"
+    "_comments":" logo as a component na likhe as a string likhte hbe(<PhoneCall/> not valid, PhoneCall with quotetion valid)"
   },
   {
     "icon": "MapPin",

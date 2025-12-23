@@ -28,6 +28,7 @@ import Navbar from "./contextapi/Navbar";
 import Theme from "./contextapi/theme";
 import Project from "./project/project";
 import Family from "./practice/family/page/home";
+import Dashboard from "./practice/Dashboard/Dashboard";
 
 
 
@@ -51,7 +52,8 @@ function apple(){
   return(
     //  multiple html tag should be in a single tag or wrapper
     <div>
-      <Family/>
+      <Dashboard/>
+      {/* <Family/> */}
       {/* <Project/> */}
       {/* <Theme/> */}
      {/* <Navbar/> */}
